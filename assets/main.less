@@ -1,0 +1,141 @@
+@import "bootstrap-master/less/bootstrap";
+@import "Font-Awesome-master/less/font-awesome";
+
+@fa-font-path: "Font-Awesome-master/fonts";
+
+.label-comedy {
+  .label-warning();
+}
+
+.label-action {
+  .label-danger();
+}
+
+.label-horror {
+  .label-default();
+}
+
+.label-thriller {
+  .label-primary();
+}
+
+.label-sci-fi {
+  .label-info();
+}
+
+.navbar {
+  .navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    img {
+      height: 50px;
+    }
+  }
+}
+
+.nav-header {
+  @media (min-width: @screen-sm) {
+    float: left;
+  }
+}
+
+.movie-item {
+
+  .label {
+    margin-right: 5px;
+  }
+
+  img {
+    height: 300px;
+  }
+
+  .movie-info {
+    height: 40px;
+    overflow: hidden;
+  }
+
+  h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.movie-page {
+
+  .image-holder {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .movie-details {
+    font-size: 13px;
+
+    .movie-duration {
+      color: @gray-light;
+    }
+
+    span {
+      vertical-align: middle;
+    }
+
+    i {
+      font-size: 15px;
+      margin-right: 3px;
+    }
+
+    .label {
+      margin-right: 5px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    span.divider {
+      color: @gray-light;
+      margin: 0 5px;
+    }
+
+  }
+
+}
+
+
+#favoritesCarousel {
+  .movie-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .thumbnail {
+      border: none;
+      margin-bottom: 0;
+    }
+  }
+
+  .carousel-control {
+
+    span {
+      position: absolute;
+      top: 50%;
+      margin-top: -13px;
+    }
+
+    &.left {
+      span {
+        left: 25px;
+      }
+    }
+    &.right {
+      span {
+        right: 25px;
+      }
+    }
+
+    i {
+      font-size: 26px;
+    }
+  }
+}
