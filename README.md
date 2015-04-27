@@ -1,6 +1,16 @@
 # angularjs-internship
 Internship presentation
 
+#Set chrome security - load files from disk
+Mac: 
+open -a Google\ Chrome --args --disable-web-security
+
+Linux: 
+sudo killall chrome
+google-chrome --disable-web-security -–allow-file-access-from-files
+
+Windows:
+Path/../chrome.exe --disable-web-security
 
 #links
 -> https://docs.angularjs.org/api
