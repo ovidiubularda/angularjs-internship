@@ -1,0 +1,41 @@
+<div class="thumbnail">
+        <h3>Movies - Directory</h3>
+        <label>Search </label>
+        <input ng-model="query" placeholder="by movie name" autofocus >
+
+        <label>Order movies by
+            <select ng-model="movieOrder">
+                <option value="">-</option>
+                <option value="id">Id</option>
+                <option value="title">Title</option>
+            </select>
+        </label>
+
+        <label>ascending
+            <input type="radio" ng-model="direction" name="direction" checked="checked">
+        </label>
+        <label>descending
+            <input type="radio" ng-model="direction" name="direction" value="reverse">
+        </label>
+</div>
+
+<div class="row">
+    <div ng-controller="MovieController">
+    <div class="col-sm-3 movie-item" ng-repeat="item in movies | filter: query | orderBy: movieOrder:direction">
+        <div class="thumbnail">
+            <img ng-src="{{item.posters.detailed}}" alt="{{item.title}}" title="{{item.title}}">
+            <div class="caption">
+                <h3>{{item.title}}</h3>
+                <p class="movie-info">{{item.synopsis}}</p>
+                <!-- <p>
+                    <span class="label label-comedy">comedy</span><span class="label label-action">action</span>
+                </p> -->
+                <p>
+                    <a href="#/details/{{item.id}}" class="btn btn-primary" role="button">Details</a> 
+                    <a target="imdb" href="http://www.imdb.com/title/tt{{item.alternate_ids.imdb}}/?ref_=inth_ov_tt" class="btn btn-default" role="button">IMDb</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

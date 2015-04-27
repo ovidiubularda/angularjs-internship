@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>PopcornTime</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+<!--     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/Font-Awesome-master/css/font-awesome.min.css"> -->
+    
+    <link rel="stylesheet/less" type="text/css" href="assets/main.less"/>
+</head>
+<body class="movie-page">
+<nav class="navbar navbar-default navbar-inverse">
+    <div class="container-fluid">
+        <div class="nav-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#popcornNav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/header-logo.png" alt="Popcorn Time"></a>
+                </div>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="popcornNav">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Movies</a></li>
+                <li><a href="#">Tv Series</a></li>
+                <li><a href="#">Anime</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Genre
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Adventure</a></li>
+                        <li><a href="#">Comedy</a></li>
+                        <li><a href="#">Horror</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a title="Search" class="hidden-xs"><i class="fa fa-search"></i></a>
+                    <div class="visible-xs col-sm-12">
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                              </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a title="Favorites" href="#"><i class="fa fa-star"></i> <span class="visible-xs-inline">Favorites</span></a>
+                </li>
+                <li>
+                    <a title="Settings" href="#"><i class="fa fa-cog"></i> <span class="visible-xs-inline">Settings</span></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 text-center image-holder">
+            <img src="http://hardiyanmedia.com/wp-content/uploads/2015/03/fast_and_furious_7_poster_by_karimelmahalawy-d7yr27m.png">
+        </div>
+        <div class="col-md-8">
+            <h1>Furious Seven</h1>
+            <p class="movie-details">
+                <span class="movie-duration">137 min</span>
+                <span class="divider">|</span>
+                <span class="label label-action">action</span><span class="label label-thriller">thriller</span>
+                <span class="divider">|</span>
+                <span class="text-warning"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i></span>
+            </p>
+            <p class="description">
+                Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.
+            </p>
+            <div class="row" style="margin-bottom: 10px">
+                <div class="col-md-8">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="http://v.traileraddict.com/101106" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+            <p>
+                <button class="btn btn-lg btn-primary"><i class="fa fa-star"></i> Add to favorites</button>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

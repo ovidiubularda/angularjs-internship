@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>PopcornTime</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+<!--     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/Font-Awesome-master/css/font-awesome.min.css"> -->
+    
+    <link rel="stylesheet/less" type="text/css" href="assets/main.less"/>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-inverse">
+    <div class="container-fluid">
+        <div class="nav-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#popcornNav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/header-logo.png"
+                                                                   alt="Popcorn Time"></a>
+                </div>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="popcornNav">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Movies</a></li>
+                <li><a href="#">Tv Series</a></li>
+                <li><a href="#">Anime</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Genre
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Adventure</a></li>
+                        <li><a href="#">Comedy</a></li>
+                        <li><a href="#">Horror</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a title="Search"><i class="fa fa-search"></i></a>
+                </li>
+                <li class="active">
+                    <a title="Favorites" href="#"><i class="fa fa-star"></i> Favorites</a>
+                </li>
+                <li>
+                    <a title="Settings" href="#"><i class="fa fa-cog"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active">
+                    <a href="#">List</a>
+                </li>
+                <li>
+                    <a href="#">Carousel</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="favoritesCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <div class="movie-item">
+                                            <div class="thumbnail">
+                                                <img src="http://ia.media-imdb.com/images/M/MV5BMTUwNzg3Mzg1OV5BMl5BanBnXkFtZTgwMDY2NTAwNDE@._V1_SX214_AL_.jpg"
+                                                     alt="Unfriended">
+
+                                                <div class="caption">
+                                                    <h3>Unfriended</h3>
+
+                                                    <p class="movie-info">A group of online chat room friends find
+                                                        themselves haunted by a mysterious, supernatural force using the
+                                                        account of their dead friend.</p>
+
+                                                    <p>
+                                                        <span class="label label-horror">horror</span><span
+                                                            class="label label-action">action</span>
+                                                    </p>
+
+                                                    <p><a href="movie.html" class="btn btn-primary" role="button">Details</a>
+                                                        <a target="imdb"
+                                                           href="http://www.imdb.com/title/tt3713166/?ref_=inth_ov_tt"
+                                                           class="btn btn-default" role="button">IMDb</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <div class="movie-item">
+                                            <div class="thumbnail">
+                                                <img src="http://ia.media-imdb.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX214_AL_.jpg"
+                                                     alt="Furious Seven">
+
+                                                <div class="caption">
+                                                    <h3>Furious Seven</h3>
+
+                                                    <p class="movie-info">Deckard Shaw seeks revenge against Dominic
+                                                        Toretto and his family for his comatose brother.</p>
+
+                                                    <p>
+                                                        <span class="label label-action">action</span><span
+                                                            class="label label-thriller">thriller</span>
+                                                    </p>
+
+                                                    <p><a href="movie.html" class="btn btn-primary" role="button">Details</a>
+                                                        <a target="imdb"
+                                                           href="http://www.imdb.com/title/tt2820852/?ref_=inth_ov_tt"
+                                                           class="btn btn-default" role="button">IMDb</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <div class="movie-item">
+                                            <div class="thumbnail">
+                                                <img src="http://ia.media-imdb.com/images/M/MV5BMTc3OTc1NjM0M15BMl5BanBnXkFtZTgwNjAyMzE1MzE@._V1_SX214_AL_.jpg"
+                                                     alt="Get Hard">
+
+                                                <div class="caption">
+                                                    <h3>Get Hard</h3>
+
+                                                    <p class="movie-info">When millionaire James King is jailed for
+                                                        fraud and bound for San Quentin, he turns to Darnell Lewis to
+                                                        prep him to go behind bars.</p>
+
+                                                    <p>
+                                                        <span class="label label-comedy">comedy</span>
+                                                    </p>
+
+                                                    <p><a href="movie.html" class="btn btn-primary" role="button">Details</a>
+                                                        <a target="imdb"
+                                                           href="http://www.imdb.com/title/tt2561572/?ref_=inth_ov_tt"
+                                                           class="btn btn-default" role="button">IMDb</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#favoritesCarousel" role="button" data-slide="prev">
+                            <span><i class="fa fa-chevron-left"></i></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#favoritesCarousel" role="button" data-slide="next">
+                            <span class="" aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-sm-4 movie-item">
+                    <div class="thumbnail">
+                        <img src="http://ia.media-imdb.com/images/M/MV5BMTkwMjkxNDQ1MV5BMl5BanBnXkFtZTgwNDQwODIxNTE@._V1_SX214_AL_.jpg"
+                             alt="Paul Blart: Mall Cop 2">
+
+                        <div class="caption">
+                            <h3>Paul Blart: Mall Cop 2</h3>
+
+                            <p class="movie-info">After six years of keeping our malls safe, Paul Blart has earned a
+                                well-deserved vacation. He heads to Vegas with his teenage daughter before she heads off
+                                to college. But safety never takes a holiday and when duty calls, Blart answers.</p>
+
+                            <p>
+                                <span class="label label-comedy">comedy</span><span
+                                    class="label label-action">action</span>
+                            </p>
+
+                            <p><a href="movie.html" class="btn btn-primary" role="button">Details</a> <a target="imdb"
+                                                                                                         href="http://www.imdb.com/title/tt3450650/?ref_=inth_ov_tt"
+                                                                                                         class="btn btn-default"
+                                                                                                         role="button">IMDb</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 movie-item">
+                    <div class="thumbnail">
+                        <img src="http://ia.media-imdb.com/images/M/MV5BMTUwNzg3Mzg1OV5BMl5BanBnXkFtZTgwMDY2NTAwNDE@._V1_SX214_AL_.jpg"
+                             alt="Unfriended">
+
+                        <div class="caption">
+                            <h3>Unfriended</h3>
+
+                            <p class="movie-info">A group of online chat room friends find themselves haunted by a
+                                mysterious, supernatural force using the account of their dead friend.</p>
+
+                            <p>
+                                <span class="label label-horror">horror</span><span
+                                    class="label label-action">action</span>
+                            </p>
+
+                            <p><a href="movie.html" class="btn btn-primary" role="button">Details</a> <a target="imdb"
+                                                                                                         href="http://www.imdb.com/title/tt3713166/?ref_=inth_ov_tt"
+                                                                                                         class="btn btn-default"
+                                                                                                         role="button">IMDb</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 movie-item">
+                    <div class="thumbnail">
+                        <img src="http://ia.media-imdb.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX214_AL_.jpg"
+                             alt="Furious Seven">
+
+                        <div class="caption">
+                            <h3>Furious Seven</h3>
+
+                            <p class="movie-info">Deckard Shaw seeks revenge against Dominic Toretto and his family for
+                                his comatose brother.</p>
+
+                            <p>
+                                <span class="label label-action">action</span><span class="label label-thriller">thriller</span>
+                            </p>
+
+                            <p><a href="movie.html" class="btn btn-primary" role="button">Details</a> <a target="imdb"
+                                                                                                         href="http://www.imdb.com/title/tt2820852/?ref_=inth_ov_tt"
+                                                                                                         class="btn btn-default"
+                                                                                                         role="button">IMDb</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

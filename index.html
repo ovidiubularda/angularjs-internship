@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="popcorntime">
 <head lang="en">
     <meta charset="UTF-8">
     <title>PopcornTime</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
+<!--     <link rel="stylesheet" href="assets/bootstrap-master/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/Font-Awesome-master/css/font-awesome.min.css"> -->
+    
     <link rel="stylesheet/less" type="text/css" href="assets/main.less"/>
 </head>
 <body>
@@ -21,7 +24,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="assets/images/header-logo.png" alt="Popcorn Time"></a>
+                    <a class="navbar-brand" href="#/"><img src="assets/images/header-logo.png" alt="Popcorn Time"></a>
                 </div>
             </div>
         </div>
@@ -56,80 +59,23 @@
         <!-- /.navbar-collapse -->
     </div>
 </nav>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-3 movie-item">
-            <div class="thumbnail">
-                <img src="http://ia.media-imdb.com/images/M/MV5BMTkwMjkxNDQ1MV5BMl5BanBnXkFtZTgwNDQwODIxNTE@._V1_SX214_AL_.jpg" alt="Paul Blart: Mall Cop 2">
-                <div class="caption">
-                    <h3>Paul Blart: Mall Cop 2</h3>
-                    <p class="movie-info">After six years of keeping our malls safe, Paul Blart has earned a well-deserved vacation. He heads to Vegas with his teenage daughter before she heads off to college. But safety never takes a holiday and when duty calls, Blart answers.</p>
-                    <p>
-                        <span class="label label-comedy">comedy</span><span class="label label-action">action</span>
-                    </p>
-                    <p><a href="movie.html" class="btn btn-primary" role="button">Details</a> <a target="imdb" href="http://www.imdb.com/title/tt3450650/?ref_=inth_ov_tt" class="btn btn-default" role="button">IMDb</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 movie-item">
-            <div class="thumbnail">
-                <img src="http://ia.media-imdb.com/images/M/MV5BMTUwNzg3Mzg1OV5BMl5BanBnXkFtZTgwMDY2NTAwNDE@._V1_SX214_AL_.jpg" alt="Unfriended">
-                <div class="caption">
-                    <h3>Unfriended</h3>
-                    <p class="movie-info">A group of online chat room friends find themselves haunted by a mysterious, supernatural force using the account of their dead friend.</p>
-                    <p>
-                        <span class="label label-horror">horror</span><span class="label label-action">action</span>
-                    </p>
-                    <p><a href="movie.html" class="btn btn-primary" role="button">Details</a> <a target="imdb" href="http://www.imdb.com/title/tt3713166/?ref_=inth_ov_tt" class="btn btn-default" role="button">IMDb</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 movie-item">
-            <div class="thumbnail">
-                <img src="http://ia.media-imdb.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX214_AL_.jpg" alt="Furious Seven">
-                <div class="caption">
-                    <h3>Furious Seven</h3>
-                    <p class="movie-info">Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.</p>
-                    <p>
-                        <span class="label label-action">action</span><span class="label label-thriller">thriller</span>
-                    </p>
-                    <p><a href="movie.html" class="btn btn-primary" role="button">Details</a> <a target="imdb" href="http://www.imdb.com/title/tt2820852/?ref_=inth_ov_tt" class="btn btn-default" role="button">IMDb</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 movie-item">
-            <div class="thumbnail">
-                <img src="http://ia.media-imdb.com/images/M/MV5BMTc3OTc1NjM0M15BMl5BanBnXkFtZTgwNjAyMzE1MzE@._V1_SX214_AL_.jpg" alt="Get Hard">
-                <div class="caption">
-                    <h3>Get Hard</h3>
-                    <p class="movie-info">When millionaire James King is jailed for fraud and bound for San Quentin, he turns to Darnell Lewis to prep him to go behind bars.</p>
-                    <p>
-                        <span class="label label-comedy">comedy</span>
-                    </p>
-                    <p><a href="movie.html" class="btn btn-primary" role="button">Details</a> <a target="imdb" href="http://www.imdb.com/title/tt2561572/?ref_=inth_ov_tt" class="btn btn-default" role="button">IMDb</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 movie-item">
-            <div class="thumbnail">
-                <img src="http://ia.media-imdb.com/images/M/MV5BMTgxOTYxMTg3OF5BMl5BanBnXkFtZTgwMDgyMzA2NDE@._V1_SX214_AL_.jpg" alt="Insurgent">
-                <div class="caption">
-                    <h3>Insurgent</h3>
-                    <p>
-                        <span class="label label-action">action</span><span class="label label-sci-fi">sci-fi</span>
-                    </p>
-                    <p class="movie-info">Beatrice Prior must confront her inner demons and continue her fight against a powerful alliance which threatens to tear her society apart with the help from others on her side.</p>
-                    <p><a href="movie.html" class="btn btn-primary" role="button">Details</a> <a target="imdb" href="http://www.imdb.com/title/tt2908446/?ref_=inth_ov_tt" class="btn btn-default" role="button">IMDb</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
+<div class="container" ng-view>
+
+<!-- Angular libraries -->
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-route.min.js"></script>
+
+<!-- App libraries -->
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+
+<!-- Less library -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,47 @@
+[
+	{
+		"title": "Paul Blart: Mall Cop 2",
+		"year": 2015,
+		"release_dates": {
+			"theater": "2015-04-17"
+		},
+		"synopsis": "After six years of keeping our malls safe, Paul Blart has earned a well-deserved vacation. He heads to Vegas with his teenage daughter before she heads off to college. But safety never takes a holiday and when duty calls, Blart answers. (C) Sony",
+		"posters": {
+			"thumbnail": "http://ia.media-imdb.com/images/M/MV5BMTkwMjkxNDQ1MV5BMl5BanBnXkFtZTgwNDQwODIxNTE@._V1_SX214_AL_.jpg",
+			"detailed": "http://ia.media-imdb.com/images/M/MV5BMTkwMjkxNDQ1MV5BMl5BanBnXkFtZTgwNDQwODIxNTE@._V1_SX214_AL_.jpg"
+		},
+		"alternate_ids": {
+			"imdb": "3450650"
+		},
+	},
+	{
+		"title": "Furious 7",
+		"year": 2015,
+		"release_dates": {
+			"theater": "2015-04-03"
+		},
+		"synopsis": "Continuing the global exploits in the unstoppable franchise built on speed, Vin Diesel, Paul Walker and Dwayne Johnson lead the returning cast of Fast & Furious 7. James Wan directs this chapter of the hugely successful series that also welcomes back favorites Michelle Rodriguez, Jordana Brewster, Tyrese Gibson, Chris \"Ludacris\" Bridges, Elsa Pataky and Lucas Black. They are joined by international action stars new to the franchise including Jason Statham, Djimon Hounsou, Tony Jaa, Ronda Rousey and Kurt Russell.",
+		"posters": {
+			"thumbnail": "http://ia.media-imdb.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX214_AL_.jpg",
+			"detailed": "http://ia.media-imdb.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX214_AL_.jpg",
+		},
+		"alternate_ids": {
+			"imdb": "2820852"
+		},
+	},
+	{
+		"title": "Insurgent",
+		"year": 2015,
+		"release_dates": {
+			"theater": "2015-03-20"
+		},
+		"synopsis": "THE DIVERGENT SERIES: INSURGENT raises the stakes for Tris as she searches for allies and answers in the ruins of a futuristic Chicago. Tris (Woodley) and Four (James) are now fugitives on the run, hunted by Jeanine (Winslet), the leader of the power-hungry Erudite elite. Racing against time, they must find out what Tris's family sacrificed their lives to protect, and why the Erudite leaders will do anything to stop them. Haunted by her past choices but desperate to protect the ones she loves, Tris, with Four at her side, faces one impossible challenge after another as they unlock the truth about the past and ultimately the future of their world. (C) Lionsgate",
+		"posters": {
+			"thumbnail": "http://ia.media-imdb.com/images/M/MV5BMTgxOTYxMTg3OF5BMl5BanBnXkFtZTgwMDgyMzA2NDE@._V1_SX214_AL_.jpg",
+			"detailed": "http://ia.media-imdb.com/images/M/MV5BMTgxOTYxMTg3OF5BMl5BanBnXkFtZTgwMDgyMzA2NDE@._V1_SX214_AL_.jpg",
+		},
+		"alternate_ids": {
+			"imdb": "2908446"
+		},
+	}
+]
